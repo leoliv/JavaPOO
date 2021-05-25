@@ -1,4 +1,4 @@
-package Atividade2;
+package atividade2;
 
 public class CelularAndroid extends CelularModerno {
     private String lojaAplicativos;
