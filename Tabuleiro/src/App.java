@@ -2,25 +2,25 @@ public class App {
     public static void main(String[] args) {
         String casa[][] = new String[64][64];
         String x;
-        String y = "Preto ";
-        String z = "Branco ";
+        String y = "PRETO ";
+        String z = "BRANCO ";
         for (int i = 0; i < casa.length; i++) {
             for (int j = 0; j < casa.length; j++) {
                 x = z;
                 y = x;
                 casa[i][j] = y;
-                if (y == "Branco ") {
-                    z = "Preto ";
+                if (y == "BRANCO ") {
+                    z = "PRETO ";
                 } else {
-                    z = "Branco ";
-                    x = "Preto ";
+                    z = "BRANCO ";
+                    x = "PRETO ";
                 }
             }
-            if (z == "Branco ") {
-                z = "Preto ";
+            if (z == "BRANCO ") {
+                z = "PRETO ";
 
             } else {
-                z="Branco ";
+                z="BRANCO ";
             }
         }
 
