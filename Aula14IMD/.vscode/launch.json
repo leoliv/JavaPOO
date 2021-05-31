@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "atividade01.Main",
+            "projectName": "Aula14IMD_6c3f330"
+        },
+        {
+            "type": "java",
+            "name": "Launch Motor",
+            "request": "launch",
+            "mainClass": "atividade02.Motor",
+            "projectName": "Aula14IMD_6c3f330"
+        },
+        {
+            "type": "java",
+            "name": "Launch Filha",
+            "request": "launch",
+            "mainClass": "exemplo1.Filha",
+            "projectName": "Aula14IMD_6c3f330"
+        },
+        {
+            "type": "java",
+            "name": "Launch VestuarioMain",
+            "request": "launch",
+            "mainClass": "exemplo2.VestuarioMain",
+            "projectName": "Aula14IMD_6c3f330"
+        }
+    ]
+}
